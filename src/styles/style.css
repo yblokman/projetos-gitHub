@@ -1,0 +1,81 @@
+@import url(base.css);
+
+html, body{
+  background-color: var(--body-background);
+  height:min-content;
+  margin: 0px;
+  padding: 0px;
+}
+
+.projectName{
+  color: #837E9F;
+  margin: 2px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family)
+}
+
+.containerBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  background-color: var(--body-background);
+}
+
+.projectBox{
+  display: flex;
+  width: 300px;
+  height: 150px;
+  background-color: #302F3D;
+  padding: 20px;
+  box-shadow: inset;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projectHeader{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.footerProject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.communitProject{
+  display: flex;
+  gap: 12px;
+}
+
+.counterProject{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.techBox{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  height: 24px;
+}
+
+.ellipseTech{
+  width: 15px;
+  height: 15px;
+}
